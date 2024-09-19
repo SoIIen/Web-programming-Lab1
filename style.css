@@ -1,0 +1,92 @@
+.heading {
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    font-size: 1em;
+    font-family: serif;
+    line-height: 1.2;
+    color: #333;
+}
+
+.heading-line {
+    border: none;
+    border-top: 1px solid #000000;
+    margin-top: 0.33em;
+    margin-bottom: 1em;
+  }
+
+.article {
+    font-family: Arial;
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #444;
+    margin-bottom: 1.2em;
+}
+
+.blockquote {
+    font-size: 1em;
+    font-style: italic;
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    border-left: 4px solid #ccc;
+    background-color: #f9f9f9;
+  }
+
+.infobox {
+    border: 1px solid var(--border-color-base, #a2a9b1);
+    background: var(--background-color-neutral-subtle, #f8f9fa);
+    margin-bottom: .5em;
+    margin-left: 1em;
+    padding: .4em;
+    float: right;
+    clear: right;
+    font-size: 90%;
+    font-family: Arial;
+    width: 23em;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 1.5em;
+    border-collapse: separate;
+    border-spacing: 2px;
+    text-align: center;
+}
+
+.infobox-above {
+    background: var(--ruwiki-background-color-blue200, #cfe3ff);
+    font-size: 120%;
+    text-align: center;
+}
+
+.infobox-image {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.infobox-header {
+    background: var(--ruwiki-background-color-blue150, #dcebff);
+    text-align: center;
+}
+
+.plainlist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+
+a {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+
+li::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
